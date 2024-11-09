@@ -1477,218 +1477,186 @@ __metadata:
   linkType: hard
 
 "@wix/events@npm:^1.0.159":
-  version: 1.0.308
-  resolution: "@wix/events@npm:1.0.308"
+  version: 1.0.332
+  resolution: "@wix/events@npm:1.0.332"
   dependencies:
-    "@wix/events_categories": 1.0.44
-    "@wix/events_forms": 1.0.46
-    "@wix/events_guests": 1.0.68
-    "@wix/events_notifications": 1.0.33
-    "@wix/events_orders": 1.0.50
-    "@wix/events_policies": 1.0.42
-    "@wix/events_ricos": 1.0.7
-    "@wix/events_rsvp": 1.0.44
-    "@wix/events_rsvp-v-2": 1.0.9
-    "@wix/events_schedule": 1.0.38
-    "@wix/events_schedule-bookmarks": 1.0.34
-    "@wix/events_staff-members": 1.0.14
-    "@wix/events_ticket-definitions": 1.0.48
-    "@wix/events_ticket-definitions-v-2": 1.0.62
-    "@wix/events_tickets": 1.0.43
-    "@wix/events_wix-events-v-2": 1.0.54
-  checksum: a221fbb2d498fc498dca22b018f3e6d055ac32e74dd3ff4140a205cc99baa5e4e3fd97e0e117dfb97b4f14b2b1136f21754457accb45e06725f4af402d736167
+    "@wix/events_categories": 1.0.48
+    "@wix/events_forms": 1.0.51
+    "@wix/events_guests": 1.0.75
+    "@wix/events_notifications": 1.0.38
+    "@wix/events_orders": 1.0.57
+    "@wix/events_policies": 1.0.46
+    "@wix/events_ricos": 1.0.12
+    "@wix/events_rsvp": 1.0.49
+    "@wix/events_rsvp-v-2": 1.0.20
+    "@wix/events_schedule": 1.0.43
+    "@wix/events_schedule-bookmarks": 1.0.39
+    "@wix/events_staff-members": 1.0.20
+    "@wix/events_ticket-definitions": 1.0.52
+    "@wix/events_ticket-definitions-v-2": 1.0.68
+    "@wix/events_tickets": 1.0.47
+    "@wix/events_wix-events-v-2": 1.0.59
+  checksum: f47f4cc7568b748bd0f0a8686414d54fdcb18a9476d9c8826cd18602050b79448d2d96413dd8c1fffff0b050db8cc8e07bf0bc6548de7c3917f5598ab5d08963
   languageName: node
   linkType: hard
 
-"@wix/events_categories@npm:1.0.44":
-  version: 1.0.44
-  resolution: "@wix/events_categories@npm:1.0.44"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: deded528bbebd21b0598e2ac76521c9399121123a608557dde5a25137fda8eaa0533b5c963641a167ef49d58badc7ee92c60a9bc9a079f4b07302cad9a547269
-  languageName: node
-  linkType: hard
-
-"@wix/events_forms@npm:1.0.46":
-  version: 1.0.46
-  resolution: "@wix/events_forms@npm:1.0.46"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 01fe5e54e76494050b640be1f84f4161562136e67df2af559f1e65d0d723d03407baceac8c7961f1edabf8193e99f0b445e74b21c888123d1395fd97c9fa76e3
-  languageName: node
-  linkType: hard
-
-"@wix/events_guests@npm:1.0.68":
-  version: 1.0.68
-  resolution: "@wix/events_guests@npm:1.0.68"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 991fc8c6d325d3303c70b4003e191d8b73b2ce6a9bdbe8b752000ac9ff4e3ff989482fdac5cf3e9f725a07bc9c7baed680b8b566cb85f6c752688674c3dada03
-  languageName: node
-  linkType: hard
-
-"@wix/events_notifications@npm:1.0.33":
-  version: 1.0.33
-  resolution: "@wix/events_notifications@npm:1.0.33"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: ac7e85bd38359e90b09e8d0fd399d20c423c3486c36ab08f4880e41bcc018ba7b021ccf25ea30e387167a33a59fb1ae5b7abbed2c9bc91e943388aeb3a7be606
-  languageName: node
-  linkType: hard
-
-"@wix/events_orders@npm:1.0.50":
-  version: 1.0.50
-  resolution: "@wix/events_orders@npm:1.0.50"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 45d4e7b3034b16d11ee4356f8b8b9ca650e3390227c7e7110135c949b7177f06f4b9c906846f3b9b2bd82481f2d86412495a3d1a584cb1307857e7ffdcd84203
-  languageName: node
-  linkType: hard
-
-"@wix/events_policies@npm:1.0.42":
-  version: 1.0.42
-  resolution: "@wix/events_policies@npm:1.0.42"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: b225c9b6016385d3dea3817e5a72b95a9e3d724f4c4601f329229cbe8ae5cbc188a0529ad95e08187c133ad76a4dbd3d1c26fbfef14d883ff16b67858d43c011
-  languageName: node
-  linkType: hard
-
-"@wix/events_ricos@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@wix/events_ricos@npm:1.0.7"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: da0cf834dd13a5e313078628f79c1032ba5010b5a0652133307bb4c7f4c32ae211bccbf1d43a936d8fb90b2e734263809823020b042a04bd640fb3e04f19766b
-  languageName: node
-  linkType: hard
-
-"@wix/events_rsvp-v-2@npm:1.0.9":
-  version: 1.0.9
-  resolution: "@wix/events_rsvp-v-2@npm:1.0.9"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 7f8e194a775eee59e759d2faa9d2fc015ea53f502e559a1412efb4d8c2773a9b2c130ee09ef0f698ba9821d66f03b731d8164ef75e0722855c9449c3556e1e9b
-  languageName: node
-  linkType: hard
-
-"@wix/events_rsvp@npm:1.0.44":
-  version: 1.0.44
-  resolution: "@wix/events_rsvp@npm:1.0.44"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: ff9e70331d1ed2a317f9a77e8c382ea240908d64974e8084531b51bc08fb55af83b291c658636e1422fcab353ab742794e1941802e0c23098d867bd2ab54d76c
-  languageName: node
-  linkType: hard
-
-"@wix/events_schedule-bookmarks@npm:1.0.34":
-  version: 1.0.34
-  resolution: "@wix/events_schedule-bookmarks@npm:1.0.34"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 32cbf013281bf1113f1a3fa5340a6c8e5e5a17ad361b714d923caaadc222ad8d4f62fa8bb6802bd0d4f2349f4cdbbcba6603048561012ada22b7fae003dc1489
-  languageName: node
-  linkType: hard
-
-"@wix/events_schedule@npm:1.0.38":
-  version: 1.0.38
-  resolution: "@wix/events_schedule@npm:1.0.38"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 78f1952d2f564340436768f31fcc0fd89e11cab9606220009ba37f00c762b3d7d7e17a03445eedae3be46dd51ee092351dae87852ca23ffd189ff9edc5b4fdf8
-  languageName: node
-  linkType: hard
-
-"@wix/events_staff-members@npm:1.0.14":
-  version: 1.0.14
-  resolution: "@wix/events_staff-members@npm:1.0.14"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: ed3cf7e52a6eae31d4830938af5204c384716d609603d17710e5fd37c709a7ddd61d5f119fb457f40a66c372ba9dace1e662b55bdf2353319f256166ab274adc
-  languageName: node
-  linkType: hard
-
-"@wix/events_ticket-definitions-v-2@npm:1.0.62":
-  version: 1.0.62
-  resolution: "@wix/events_ticket-definitions-v-2@npm:1.0.62"
-  dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 5ca77238189eeb4d034381efe9f73792a09dfcb676c9c2e292b3e2c7220ac0e61fde6af97a4bf728f9beaab5782b689b0b3b3c64c3d1c5a73c9d35da7b8734f7
-  languageName: node
-  linkType: hard
-
-"@wix/events_ticket-definitions@npm:1.0.48":
+"@wix/events_categories@npm:1.0.48":
   version: 1.0.48
-  resolution: "@wix/events_ticket-definitions@npm:1.0.48"
+  resolution: "@wix/events_categories@npm:1.0.48"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 2a00df2582a3590165a332a1388a8569ac6bf5fb6e055ac9414308c9e89dad162868e32b7b5a6638fb5b600b292efb24989caf76dab5f383674a588c4c97072e
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: ac6c1e5de5b40cbd1fc55a638e68b7df8af5f3f3275616b5f98c1a3a6c0bb780291ad3ad94bcf56b58a1dd0f9c08d67383e83ead9304082eb3dc2b2e521b84cb
   languageName: node
   linkType: hard
 
-"@wix/events_tickets@npm:1.0.43":
+"@wix/events_forms@npm:1.0.51":
+  version: 1.0.51
+  resolution: "@wix/events_forms@npm:1.0.51"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: dd0a3e3f61f5ac771bb4882abaf94b621c219c3ee526be458d836757f3e1a015835c21f4a7883aeae0765b91cd33599c37ba8182485313103ebc2f73146d8b98
+  languageName: node
+  linkType: hard
+
+"@wix/events_guests@npm:1.0.75":
+  version: 1.0.75
+  resolution: "@wix/events_guests@npm:1.0.75"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: d7ab1a9dc54e09bf94e6e21fc0ce2527a10375f1204453556564a945f6d6ef63bda6a0222938c2be33725383191a7d03654c264fa78136b61ee801e8d6f73bc0
+  languageName: node
+  linkType: hard
+
+"@wix/events_notifications@npm:1.0.38":
+  version: 1.0.38
+  resolution: "@wix/events_notifications@npm:1.0.38"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 7a6d67528502b271ccd54e160e68a77fc9c52d808f81591a2de43406f37b02c755b506cdee5c290a116f6a68992761dff12b0efd2925bb96f40840d783064438
+  languageName: node
+  linkType: hard
+
+"@wix/events_orders@npm:1.0.57":
+  version: 1.0.57
+  resolution: "@wix/events_orders@npm:1.0.57"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 38578db4936a1addfeafb77ff7c5a533ee6d771b196b1b0d1f9e3b734b87d094c5a20e4e0bba23920de03c447b7c485e179fa60e251b625397cc1e12bfebbb4b
+  languageName: node
+  linkType: hard
+
+"@wix/events_policies@npm:1.0.46":
+  version: 1.0.46
+  resolution: "@wix/events_policies@npm:1.0.46"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 44f69d3a695f8be560614b53e4a0990740b0637edf34f381be0bedf51df4427585891a1b4a2799539312ba43062159672fb4ac0adbc268584f9ac50fbc1212a6
+  languageName: node
+  linkType: hard
+
+"@wix/events_ricos@npm:1.0.12":
+  version: 1.0.12
+  resolution: "@wix/events_ricos@npm:1.0.12"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 18436d83a0a17eb55a4d39871c8114b4f1b15a81f337275b913fe41b3c4fb27e96a727518ff6ab49b6c22b5a3f7fc8ff0f015b790202254de1184408da2b2739
+  languageName: node
+  linkType: hard
+
+"@wix/events_rsvp-v-2@npm:1.0.20":
+  version: 1.0.20
+  resolution: "@wix/events_rsvp-v-2@npm:1.0.20"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 6a88eda529327e1da2c7f967ca1261409013360aab6438ceeb5d03c375d436d1576cc6ed649d983d89604b3d0882efc2e3b16bf7355198ae97dae6ad82863d21
+  languageName: node
+  linkType: hard
+
+"@wix/events_rsvp@npm:1.0.49":
+  version: 1.0.49
+  resolution: "@wix/events_rsvp@npm:1.0.49"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: b7903d1858b5dcb5b450feaae70a2a2bef84b53927c1a828b9613ebbd6bd94b76f0bbc97959a07598542e34104befde1a85e6d821723dbad84e4444370e54621
+  languageName: node
+  linkType: hard
+
+"@wix/events_schedule-bookmarks@npm:1.0.39":
+  version: 1.0.39
+  resolution: "@wix/events_schedule-bookmarks@npm:1.0.39"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 037f7ab143e0452a4ea9eacbf4e991b6de76028301388068c669421b28cf2422d0f7673a7f86c7d1ef87c35340ab6b77910c3ed83fbdf2a6d7f822ac4290c34f
+  languageName: node
+  linkType: hard
+
+"@wix/events_schedule@npm:1.0.43":
   version: 1.0.43
-  resolution: "@wix/events_tickets@npm:1.0.43"
+  resolution: "@wix/events_schedule@npm:1.0.43"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: f3c42e0d98fdfac3a315fed37b50c2b2c8bcf0a2c6c90f5092d87d338aeb7e6793e831012f4cfde6afb3d852997d48b238bbb77d93890403a0ef20a31d0a126c
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: c950161aa882083ec9142b1be9c7a88f57a049b5c360fc5b9438591451463623dd56aa60eb533c3fe5dac166caf4abf94e2129a386eb8ae2432ff5c0175664d1
   languageName: node
   linkType: hard
 
-"@wix/events_wix-events-v-2@npm:1.0.54":
-  version: 1.0.54
-  resolution: "@wix/events_wix-events-v-2@npm:1.0.54"
+"@wix/events_staff-members@npm:1.0.20":
+  version: 1.0.20
+  resolution: "@wix/events_staff-members@npm:1.0.20"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.3.14
-    "@wix/sdk-types": ^1.12.3
-  checksum: 59845d25a82fa8106fcbb7f4efe828979815ec085c70736a549617626e2c315bbd4c10d968d71ecf1ab15afa27dc94884e0348ef06adb04c7dfe56883be5b14a
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: d97469a6915b7c4717cb53f3ffb3f557f0e06c05cda9b5ee4bb90232b6840670d98fd6585310810e59caf714c62e458f283164387dbe9496ea6b0dd466539e1a
+  languageName: node
+  linkType: hard
+
+"@wix/events_ticket-definitions-v-2@npm:1.0.68":
+  version: 1.0.68
+  resolution: "@wix/events_ticket-definitions-v-2@npm:1.0.68"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 230b6b9429ed3f500ea2c55623d5d7e6961f055a0b0441f11ae15e22557345db10b84afb0a4b958a780959e7a5692f65cde6fd911e50e004eef5c7544a4076ef
+  languageName: node
+  linkType: hard
+
+"@wix/events_ticket-definitions@npm:1.0.52":
+  version: 1.0.52
+  resolution: "@wix/events_ticket-definitions@npm:1.0.52"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 478c8b711bb15748b5a9822e70fe248a19657320e358f4d9913cccda7f6f3fe7fed31d8ced8d196e11c2fbfcfd3c305c902b9081168e9c0882f2fb49c10a9f5f
+  languageName: node
+  linkType: hard
+
+"@wix/events_tickets@npm:1.0.47":
+  version: 1.0.47
+  resolution: "@wix/events_tickets@npm:1.0.47"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: cf174528782d1d86c474afe60382cb3b554c302c01ce15ee10b046a2a08d9216a737ba75ef53b94977936edf34870b6efb70213aeb934adce44bd37cc5f3db6b
+  languageName: node
+  linkType: hard
+
+"@wix/events_wix-events-v-2@npm:1.0.59":
+  version: 1.0.59
+  resolution: "@wix/events_wix-events-v-2@npm:1.0.59"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 10a6d5a47e4c447b411f8a15f57a0f417858117dd888f08732f72dd90095e0eb32a254e804b47b641d6a656ee857c940806978af809dfb6ea3ac785e0b324aa1
   languageName: node
   linkType: hard
 
@@ -1960,10 +1928,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wix/sdk-runtime@npm:^0.3.22":
+  version: 0.3.23
+  resolution: "@wix/sdk-runtime@npm:0.3.23"
+  dependencies:
+    "@wix/sdk-context": ^0.0.1
+    "@wix/sdk-types": ^1.12.4
+  checksum: a85110a92315436e7b385c10c8ffd0d060933b8047888b6c2ae5a75ce1e87d96155c610cefeec3ad683246d53909db2b05171fdab0af058f95a20cc8033ef8c2
+  languageName: node
+  linkType: hard
+
 "@wix/sdk-types@npm:^1.12.3, @wix/sdk-types@npm:^1.5.11, @wix/sdk-types@npm:^1.7.0, @wix/sdk-types@npm:^1.9.2":
   version: 1.12.3
   resolution: "@wix/sdk-types@npm:1.12.3"
   checksum: 2fdcd46f720d08eba0cecc0fa9bb799797620134adcbfbe7886a5e3733e1cd2544a6a7ca554e859ed4fa48081c15c7eecf1c308b5afbb61f1b23a65debf14445
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-types@npm:^1.12.4":
+  version: 1.12.4
+  resolution: "@wix/sdk-types@npm:1.12.4"
+  checksum: 31969ee9526c2e6a526cd1cebc21628e70e0b309c186ca2fc6dca0155090f0a721483426fac6b0d50365704637ebe13bd838df67c3b7986e6f06e5b061de2905
   languageName: node
   linkType: hard
 
